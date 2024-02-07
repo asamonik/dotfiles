@@ -1,0 +1,305 @@
+* {
+  all: unset;
+  font-family: "CaskaydiaCove NF"; }
+
+.popup {
+  color: #50fa7b; }
+
+.bar, tooltip {
+  margin: 10px;
+  margin-bottom: 0px;
+  background-color: #282828;
+  border-radius: 16px; }
+
+.right {
+  border-radius: 16px; }
+
+.time-text {
+  font-size: 16px; }
+
+.reboot-button {
+  font-size: 28px;
+  color: #458588; }
+
+.sleep-button {
+  font-size: 28px;
+  color: #458588; }
+
+.lock-button {
+  font-size: 28px;
+  color: #458588; }
+
+.exit-button {
+  font-size: 28px;
+  color: #458588; }
+
+.power-button {
+  font-size: 28px;
+  color: #cc241d; }
+
+.system-confirm {
+  color: #98971a; }
+
+trough {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: none;
+  background-color: #44475a;
+  min-width: 4px;
+  min-height: 4px; }
+
+slider {
+  border-radius: 0%;
+  border-width: 1px;
+  border-style: none;
+  margin: -9px -9px -9px -9px;
+  min-width: 16px;
+  min-height: 16px;
+  background-color: transparent; }
+
+highlight {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: none;
+  min-width: 6px;
+  min-height: 6px; }
+
+.audio-icon {
+  font-size: 24px;
+  color: #d65d0e; }
+
+.audio-volume {
+  font-size: 16px;
+  color: #d65d0e; }
+  .audio-volume trough {
+    background-color: #44475a; }
+  .audio-volume slider {
+    background-color: transparent; }
+  .audio-volume highlight {
+    background-color: #d65d0e; }
+
+.mic-icon {
+  font-size: 24px;
+  color: #b16286; }
+
+.mic-volume {
+  font-size: 16px;
+  color: #b16286; }
+  .mic-volume trough {
+    background-color: #44475a; }
+  .mic-volume slider {
+    background-color: transparent; }
+  .mic-volume highlight {
+    background-color: #b16286; }
+
+.package-outofdate {
+  margin: -5px -5px -5px -5px;
+  font-size: 24px;
+  color: #cc241d; }
+
+.bt-num {
+  font-size: 16px;
+  color: #458588; }
+
+.bt-label-on {
+  font-size: 20px;
+  color: #458588; }
+
+.bt-label-off {
+  font-size: 24px;
+  color: #458588; }
+
+.bt-label-connected {
+  font-size: 28px;
+  color: #458588; }
+
+.disk-widget * {
+  color: #b16286;
+  font-size: 16px; }
+
+.disk-util-progress {
+  background-color: #44475a; }
+
+.vram-widget * {
+  color: #d65d0e;
+  font-size: 16px; }
+
+.vram-util-progress {
+  background-color: #44475a; }
+
+.ram-widget * {
+  color: #d79921;
+  font-size: 16px; }
+
+.ram-util-progress {
+  background-color: #44475a; }
+
+.gpu-widget * {
+  color: #689d6a;
+  font-size: 16px; }
+
+.gpu-util-progress {
+  background-color: #44475a; }
+
+.cpu-widget * {
+  color: #98971a;
+  font-size: 16px; }
+
+.cpu-util-progress {
+  background-color: #44475a; }
+
+.battery-widget * {
+  color: #ff79c6;
+  font-size: 16px; }
+
+.battery-util-progress {
+  background-color: #44475a; }
+
+.battery-charging {
+  color: #d65d0e; }
+
+.network-data-text {
+  color: #98971a;
+  font-size: 16px; }
+
+.network-up-under {
+  color: #44475a; }
+
+.network-up-low {
+  color: #98971a; }
+
+.network-up-mid-low {
+  color: #d79921; }
+
+.network-up-mid-high {
+  color: #d65d0e; }
+
+.network-up-high {
+  color: #b16286; }
+
+.network-up-over {
+  color: #cc241d; }
+
+.network-down-under {
+  color: #44475a; }
+
+.network-down-low {
+  color: #98971a; }
+
+.network-down-mid-low {
+  color: #d79921; }
+
+.network-down-mid-high {
+  color: #d65d0e; }
+
+.network-down-high {
+  color: #b16286; }
+
+.network-down-over {
+  color: #cc241d; }
+
+.ws-dead {
+  color: #44475a;
+  font-size: 16px; }
+
+.ws-inactive {
+  color: #458588;
+  font-size: 16px; }
+
+.ws-visible {
+  color: #689d6a;
+  font-size: 16px; }
+
+.ws-current {
+  color: #d79921;
+  font-size: 16px; }
+
+.ws-active {
+  color: #98971a;
+  font-size: 16px; }
+
+@keyframes connectanim {
+  from {
+    background-image: radial-gradient(circle farthest-side at center, #458588 0%, transparent 0%, transparent 100%); }
+  to {
+    background-image: radial-gradient(circle farthest-side at center, #458588 0%, #458588 100%, transparent 100%); } }
+
+@keyframes disconnectanim {
+  from {
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, #458588 0%, #458588 100%); }
+  to {
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, transparent 100%, #458588 100%); } }
+
+@keyframes scanonanim {
+  from {
+    color: #d79921; }
+  to {
+    color: #98971a; } }
+
+@keyframes scanoffanim {
+  from {
+    color: #98971a; }
+  to {
+    color: #d79921; } }
+
+.bt-bg {
+  background-color: #282828;
+  border-radius: 16px; }
+
+.bt-header-box {
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 8px;
+  font-size: 24px;
+  color: #458588; }
+
+.bt-body-box {
+  margin-right: 8px;
+  margin-left: 8px; }
+
+.bt-button {
+  border-radius: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  font-size: 16px; }
+  .bt-button.active {
+    animation-name: connectanim;
+    animation-duration: 50ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; }
+  .bt-button.inactive {
+    animation-name: disconnectanim;
+    animation-duration: 50ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; }
+  .bt-button.failed {
+    color: #cc241d; }
+
+.bt-close {
+  color: #cc241d;
+  background-color: #44475a;
+  border-radius: 16px;
+  padding: 0px 8px 0px 7px;
+  margin: 0px 0px 0px 8px; }
+
+.bt-scan {
+  color: #d79921;
+  background-color: #44475a;
+  border-radius: 16px;
+  padding: 2px 11px 0px 7px;
+  margin: 0px 0px 0px 10px;
+  font-size: 18px; }
+  .bt-scan.active {
+    animation-name: scanonanim;
+    animation-duration: 50ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; }
+  .bt-scan.inactive {
+    animation-name: scanoffanim;
+    animation-duration: 50ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; }
