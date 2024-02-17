@@ -6,6 +6,9 @@ $HOME/export-esp.sh
 # custom prompt
 PROMPT='%F{green}%*%f %F{blue}%~/%f $ '
 
+# cura xcb alias
+alias cura='QT_QPA_PLATFORM=xcb cura'
+
 # ls
 alias ls='ls --color'
 alias l='ls -lh'
@@ -43,7 +46,7 @@ autoload -U compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # vim
-bindkey -v
+# bindkey -v
 
 # syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
